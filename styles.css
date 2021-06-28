@@ -1,0 +1,6 @@
+.nav-bar > .nav-link div{
+    display: flex;
+}
+.right-side {
+    justify-content: right;
+}
