@@ -1,7 +1,7 @@
 .nav-bar {
-    background-color: black;
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .nav-bar > .logo {
   width: 150px;
@@ -18,13 +18,11 @@
   justify-content: space-between;
 }
 
-
 .nav-bar > .explore-text {
   color: rgb(255, 231, 97);
 }
 
-
 .nav-bar > .nav-link-wrapper > .spark {
   display: flex;
   color: grey;
-} 
+}
