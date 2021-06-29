@@ -2,27 +2,43 @@
   background-color: black;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
 }
+
+
+
 .nav-bar > .logo {
   width: 150px;
   height: 30px;
+  padding-right: 40px;
 }
-.nav-bar > .nav-link-wrapper {
+
+.nav-bar > .nav-bar-wrapper {
+  width: 30%;
+}
+
+
+.nav-bar > .nav-bar-wrapper > .nav-link-wrapper {
   align-items: center;
   display: flex;
+  justify-content: space-between;
 }
-.nav-bar > .nav-link-wrapper > .nav-link {
+.nav-bar > .nav-bar-wrapper > .nav-link-wrapper > .nav-link {
   color: white;
   align-items: center;
   font-weight: bold;
-  justify-content: space-between;
+
 }
 
-.nav-bar > .explore-text {
+.nav-bar > .nav-bar-wrapper > .explore-text {
   color: rgb(255, 231, 97);
+  font-weight: bold;
+  
 }
 
-.nav-bar > .nav-link-wrapper > .spark {
+.nav-bar >.nav-bar-wrapper > .nav-link-wrapper > .spark {
   display: flex;
   color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
