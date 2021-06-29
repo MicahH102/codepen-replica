@@ -1,6 +1,30 @@
-.nav-bar > .nav-link div{
+.nav-bar {
+    background-color: black;
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.right-side {
-    justify-content: right;
+.nav-bar > .logo {
+  width: 150px;
+  height: 30px;
 }
+.nav-bar > .nav-link-wrapper {
+  align-items: center;
+  display: flex;
+}
+.nav-bar > .nav-link-wrapper > .nav-link {
+  color: white;
+  align-items: center;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+
+.nav-bar > .explore-text {
+  color: rgb(255, 231, 97);
+}
+
+
+.nav-bar > .nav-link-wrapper > .spark {
+  display: flex;
+  color: grey;
+} 
