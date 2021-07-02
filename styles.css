@@ -117,12 +117,30 @@ body {
   font-size: 20px;
 }
 
+.page-container > .columns-codepen {
+  display:flex ;
+  justify-content: center;
+}
+
+
+
 .page-container > .columns-codepen > .codepen-text {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  padding: 0 140px;
+  background: grey;
+  height: 100px;
+  width: 100%;
 }
 
-.page-container > .right-img-wrapper img {
-  width: 50%;
-  height: 50%;
+
+
+.page-container > .right-box > .right-img-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page-container > .right-box > .right-img-wrapper > .img {
+  width: 700px;
+  aspect-ratio: 1.2/1;
 }
